@@ -32,7 +32,7 @@
       // give up if no namespace
       if (ns === null) {
         console.log("No namespace found");
-        return null;
+        ns = "og";
       }
       
       // look for OGP data
